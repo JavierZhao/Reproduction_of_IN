@@ -1,7 +1,11 @@
 Reproduction of Interaction Network: a graph-based neural network for particle physics applications
 ==============================
 
-We reproduce the results in the paper https://arxiv.org/abs/1909.12285, Interaction networks for the identification of boosted $H\to b\overline{b}$ decays.
+We reproduce the results in the paper https://arxiv.org/abs/1909.12285
+**Interaction networks for the identification of boosted $H\to b\overline{b}$ decays.**
+
+Group members:
+Arturo Sorensen, Danylo Drohobytsky, Fredy Ramirez, and Zihan Zhao
 
 Project Organization
 ------------
