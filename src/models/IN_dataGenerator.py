@@ -116,6 +116,7 @@ def main(args):
     os.system('mkdir -p %s'%outdir)
 
     batch_size = 128
+    # data values that load into INN
     data_train = H5Data(batch_size = batch_size,
                         cache = None,
                         preloading=0,
