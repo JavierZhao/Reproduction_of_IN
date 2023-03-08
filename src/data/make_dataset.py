@@ -74,6 +74,7 @@ def main(definitions, train, test, outdir, max_entries, keep_frac, batch_size): 
                 logger.info(f"{outdir}/{dataset}/newdata_{counter}.h5 exists... skipping")
                 continue
             arrays = tree.arrays(spectators, library="np", entry_start=k, entry_stop=k + batch_size)
+            mask = (np.random.rand(*arrays["fj_pt"].shape) < keep_frac)
             spec_array = np.expand_dims(np.stack([arrays[spec][mask] for spec in spectators], axis=1), axis=1)
             real_batch_size = spec_array.shape[0]  # real batch size might be smaller than batch_size
             total_entries += real_batch_size  # keeping count of how many entries were processed
