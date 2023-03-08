@@ -31,7 +31,7 @@ def to_np_array(ak_array, maxN=100, pad=0, dtype=float):
 @click.option("--max-entries", show_default=True, default=None, type=int)
 @click.option("--keep-frac", show_default=True, default=1, type=float)
 @click.option("--batch-size", show_default=True, default=None, type=int)
-def main(definitions, train, test, outdir, max_entries, min_npv, max_npv, min_pt, max_pt, keep_frac, batch_size):  # noqa: C901
+def main(definitions, train, test, outdir, max_entries, keep_frac, batch_size):  # noqa: C901
     """Runs data processing scripts to turn raw data from (../raw) into
     cleaned data ready to be analyzed (saved in ../processed).
     """
