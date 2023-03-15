@@ -19,6 +19,7 @@ test_files:
   - /home/asorense/teams/group-2/Reproduction_of_IN/data/train/ntuple_merged_2.root
   - /home/asorense/teams/group-2/Reproduction_of_IN/data/train/ntuple_merged_3.root
 
+# for explanation of each feature, please see http://opendata.cern.ch/record/12102
 # jet features
 features_0:
   - fj_jetNTracks
