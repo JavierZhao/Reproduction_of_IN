@@ -9,10 +9,17 @@ nobj_3: 7
 
 train_files:
   - /home/ziz078/teams/group-2/Reproduction_of_IN/data/train/ntuple_merged_10.root
+  - /home/ziz078/teams/group-2/Reproduction_of_IN/data/train/ntuple_merged_11.root
+  - /home/asorense/teams/group-2/Reproduction_of_IN/data/train/ntuple_merged_12.root
+  - /home/asorense/teams/group-2/Reproduction_of_IN/data/train/ntuple_merged_13.root
 
 test_files:
   - /home/ziz078/teams/group-2/Reproduction_of_IN/data/test/ntuple_merged_0.root
+  - /home/asorense/teams/group-2/Reproduction_of_IN/data/test/ntuple_merged_1.root
+  - /home/asorense/teams/group-2/Reproduction_of_IN/data/train/ntuple_merged_2.root
+  - /home/asorense/teams/group-2/Reproduction_of_IN/data/train/ntuple_merged_3.root
 
+# for explanation of each feature, please see http://opendata.cern.ch/record/12102
 # jet features
 features_0:
   - fj_jetNTracks
